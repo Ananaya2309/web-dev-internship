@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -53,7 +56,7 @@ nav ul li a:hover {
 .hero p {
     font-size: 20px;
     margin-bottom: 20px;
-}.btn {
+}.button {
     display: inline-block;
     padding: 12px 25px;
     background: #00adb5;
@@ -62,7 +65,7 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
-.btn:hover {
+.button:hover {
     background: #008891;
 }
 
