@@ -40,10 +40,13 @@ nav ul li{
 nav ul li a{
     color:white;
     text-decoration:none;
+    transition:0.3s;
 }
 
 nav ul li a:hover{
     color:#00adb5;
+    color:#00adb5;
+
 }
 
 .hero{
@@ -55,7 +58,12 @@ nav ul li a:hover{
     font-size:48px;
     margin-bottom:20px;
 }
-
+.highlight{
+    color:#00adb5;
+    font-weight:bold;
+    margin-bottom:15px;
+    font-size:20px;
+}
 .hero p{
     font-size:20px;
     margin-bottom:25px;
@@ -68,10 +76,13 @@ nav ul li a:hover{
     padding:12px 25px;
     text-decoration:none;
     border-radius:8px;
+    transition: 0.3s;
 }
 
 .btn:hover{
     background:#008891;
+    background:#008891;
+    transform:scale(1.05);
 }
 
 .features{
@@ -134,4 +145,42 @@ footer{
     .hero p{
         font-size:18px;
     }
+}
+.services{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.services h2{
+    margin-bottom:40px;
+}
+
+.service-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.service-card{
+    width:280px;
+    padding:25px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+@media (max-width: 768px){
+
+    .service-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
