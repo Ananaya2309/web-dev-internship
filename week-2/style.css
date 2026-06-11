@@ -52,6 +52,8 @@ nav ul li a:hover{
 .hero{
     text-align:center;
     padding:120px 20px;
+    background:linear-gradient(135deg,#00adb5,#008891);
+    color:white;
 }
 
 .hero h1{
@@ -182,5 +184,36 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    .testimonial-grid{
+    grid-template-columns:1fr;
+}
 
+}
+.testimonials{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:30px;
+}
+
+.testimonial-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-8px);
+}
+.card:hover,
+.service-card:hover,
+.testimonial-card:hover{
+    transform: translateY(-10px);
 }
