@@ -217,3 +217,59 @@ footer{
 .testimonial-card:hover{
     transform: translateY(-10px);
 }
+.pricing{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.price-card{
+    width:280px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.price-card:hover{
+    transform:translateY(-10px);
+}
+
+.popular{
+    border:3px solid #00adb5;
+}
+.faq{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.faq-box{
+    background:white;
+    max-width:700px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+.cta{
+    background:#00adb5;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+button:hover,
+.btn:hover,
+.price-card:hover,
+.service-card:hover,
+.card:hover,
+.testimonial-card:hover{
+    transform:translateY(-8px);
+}
