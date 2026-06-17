@@ -1,18 +1,35 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 3 Day 1</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1 id="heading">Welcome to JavaScript</h1>
+    <div class="calculator">
 
-    <button onclick="changeText()">Click Me</button>
+        <h1>Calculator</h1>
+
+        <input type="number" id="num1" placeholder="Enter First Number">
+
+        <input type="number" id="num2" placeholder="Enter Second Number">
+
+        <div class="buttons">
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">−</button>
+            <button onclick="multiply()">×</button>
+            <button onclick="divide()">÷</button>
+        </div>
+
+        <h2 id="result">Result: 0</h2>
+
+    </div>
 
     <script src="script.js"></script>
 
 </body>
 </html>
+
